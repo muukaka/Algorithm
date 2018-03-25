@@ -1,0 +1,4 @@
+﻿  4008_makeNumber.cpp
+c:\users\lg\github\algorithm\swexpert\swexpert\4008_makenumber.cpp(76): warning C4101: 'j' :참조되지 않은 지역 변수입니다.
+  SWExpert.vcxproj -> C:\Users\LG\GitHub\Algorithm\SWExpert\Debug\SWExpert.exe
+  SWExpert.vcxproj -> C:\Users\LG\GitHub\Algorithm\SWExpert\Debug\SWExpert.pdb (Full PDB)
