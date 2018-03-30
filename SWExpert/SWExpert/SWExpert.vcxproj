@@ -28,7 +28,10 @@
     <ClCompile Include="3499_PerfectShuffle.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="4008_makeNumber.cpp" />
+    <ClCompile Include="4008_makeNumber.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="sorting.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{B43379C0-F270-4764-BA1D-D91D53CDA3FF}</ProjectGuid>
