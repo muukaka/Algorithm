@@ -1,12 +1,14 @@
 #include <iostream>
+#include <algorithm>
 using namespace std;
 
-void bubble(int* arr, const int n);
-void selection(int* arr, const int n);
-void insertion(int* arr, const int n);
+void bubble(int* a, const int n);
+void selection(int* a, const int n);
+void insertion(int* a, const int n);
 void mergesort(int *a, int low, int high);
-void merge(int *a, int low, int high, int mid);
-void quicksort();
+void merge(int* a, int low, int high, int mid);
+void quicksort(int* a, int left, int right);
+void quickSort(int arr[], int low, int high);
 
 int main()
 {
@@ -20,7 +22,9 @@ int main()
 	//bubble(arr, 10);
 	//selection(arr, 10);
 	//insertion(arr, 10);
-	mergesort(arr, 0, 10-1);
+	//mergesort(arr, 0, 10-1);
+	//quicksort(arr, 0, 9);
+	quickSort(arr, 0, 9);
 
 	// 출력
 	cout << "output :" << endl;
@@ -157,7 +161,6 @@ void merge(int *a, int low, int high, int mid)
 		j++;
 	}
 
-
 	// Assign sorted data stored in temp[] to a[].
 	for (i = low; i <= high; i++)
 	{
@@ -180,4 +183,82 @@ void mergesort(int *a, int low, int high)
 		merge(a, low, high, mid);
 	}
 }
-void quicksort();
+
+// 시간 복잡도 : 평균 - O(n log n), 최악 - O(n^2)
+void quicksort(int* arr, int left, int right)
+{
+	int i = left, j = right;
+	int pivot = arr[(left + right) / 2];// 피봇은 어느걸로 잡든 상관없음
+	int temp;
+	do {
+		while (arr[i] < pivot)
+			i++;
+		while (arr[j] > pivot)
+			j--;
+		if (i <= j) {
+			temp = arr[i];
+			arr[i] = arr[j];
+			arr[j] = temp;
+			i++;
+			j--;
+		}
+	} while (i <= j);
+
+	/* recursion */
+	if (left < j)
+		quicksort(arr, left, j);
+
+	if (i < right)
+		quicksort(arr, i, right);
+}
+
+// A utility function to swap two elements
+void swap(int* a, int* b)
+{
+	int t = *a;
+	*a = *b;
+	*b = t;
+}
+
+/* This function takes last element as pivot, places
+the pivot element at its correct position in sorted
+array, and places all smaller (smaller than pivot)
+to left of pivot and all greater elements to right
+of pivot */
+int partition(int arr[], int low, int high)
+{
+	int pivot = arr[high];    // pivot
+	int i = (low - 1);  // Index of smaller element
+
+	for (int j = low; j <= high - 1; j++)
+	{
+		// If current element is smaller than or
+		// equal to pivot
+		if (arr[j] <= pivot)
+		{
+			i++;    // increment index of smaller element
+			swap(&arr[i], &arr[j]);
+		}
+	}
+	swap(&arr[i + 1], &arr[high]);
+	return (i + 1); // pivot의 인덱스
+}
+
+/* The main function that implements QuickSort
+arr[] --> Array to be sorted,
+low  --> Starting index,
+high  --> Ending index */
+void quickSort(int arr[], int low, int high)
+{
+	if (low < high)
+	{
+		/* pi is partitioning index, arr[p] is now
+		at right place */
+		int pi = partition(arr, low, high);
+
+		// Separately sort elements before
+		// partition and after partition
+		quickSort(arr, low, pi - 1);
+		quickSort(arr, pi + 1, high);
+	}
+}
