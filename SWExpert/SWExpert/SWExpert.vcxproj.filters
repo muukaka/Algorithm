@@ -13,25 +13,69 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="소스 파일\SWExpert">
+      <UniqueIdentifier>{a66a40c0-9fb9-4cf1-a12b-882b87849b12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Baekjoon">
+      <UniqueIdentifier>{4f70bb22-2f2f-4b33-aa34-f52892ac67db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\LTest">
+      <UniqueIdentifier>{eff7fe06-3449-408e-a777-92daa4e4f81c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="1949_mountain.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="1949_SampleAnswer.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="3499_PerfectShuffle.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="4008_makeNumber.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="sorting.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="mergesort.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="1949_mountain.cpp">
+      <Filter>소스 파일\SWExpert</Filter>
+    </ClCompile>
+    <ClCompile Include="1949_SampleAnswer.cpp">
+      <Filter>소스 파일\SWExpert</Filter>
+    </ClCompile>
+    <ClCompile Include="3499_PerfectShuffle.cpp">
+      <Filter>소스 파일\SWExpert</Filter>
+    </ClCompile>
+    <ClCompile Include="4008_makeNumber.cpp">
+      <Filter>소스 파일\SWExpert</Filter>
+    </ClCompile>
+    <ClCompile Include="붕어빵판매.cpp">
+      <Filter>소스 파일\Baekjoon</Filter>
+    </ClCompile>
+    <ClCompile Include="findShop.cpp">
+      <Filter>소스 파일\LTest</Filter>
+    </ClCompile>
+    <ClCompile Include="runLengthCoding.cpp">
+      <Filter>소스 파일\LTest</Filter>
+    </ClCompile>
+    <ClCompile Include="grouping.cpp">
+      <Filter>소스 파일\LTest</Filter>
+    </ClCompile>
+    <ClCompile Include="sticker.cpp">
+      <Filter>소스 파일\LTest</Filter>
+    </ClCompile>
+    <ClCompile Include="partTimeJob.cpp">
+      <Filter>소스 파일\LTest</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="findShop.txt">
+      <Filter>리소스 파일</Filter>
+    </Text>
+    <Text Include="grouping.txt">
+      <Filter>리소스 파일</Filter>
+    </Text>
+    <Text Include="sticker.txt">
+      <Filter>리소스 파일</Filter>
+    </Text>
+    <Text Include="partTimeJob.txt">
+      <Filter>리소스 파일</Filter>
+    </Text>
+    <Text Include="runLengthCoding.txt">
+      <Filter>리소스 파일</Filter>
+    </Text>
   </ItemGroup>
 </Project>
