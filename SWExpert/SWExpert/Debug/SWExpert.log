@@ -1,3 +1,4 @@
 ﻿  partTimeJob.cpp
+c:\users\lg\github\algorithm\swexpert\swexpert\parttimejob.cpp(67): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
   SWExpert.vcxproj -> C:\Users\LG\GitHub\Algorithm\SWExpert\Debug\SWExpert.exe
   SWExpert.vcxproj -> C:\Users\LG\GitHub\Algorithm\SWExpert\Debug\SWExpert.pdb (Full PDB)
