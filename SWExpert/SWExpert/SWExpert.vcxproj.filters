@@ -60,6 +60,12 @@
     <ClCompile Include="partTimeJob.cpp">
       <Filter>소스 파일\LTest</Filter>
     </ClCompile>
+    <ClCompile Include="2112_gaurdFilm.cpp">
+      <Filter>소스 파일\SWExpert</Filter>
+    </ClCompile>
+    <ClCompile Include="2112_sampleAnswer.cpp">
+      <Filter>소스 파일\SWExpert</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="findShop.txt">
@@ -75,6 +81,9 @@
       <Filter>리소스 파일</Filter>
     </Text>
     <Text Include="runLengthCoding.txt">
+      <Filter>리소스 파일</Filter>
+    </Text>
+    <Text Include="2112_gaurdFilm.txt">
       <Filter>리소스 파일</Filter>
     </Text>
   </ItemGroup>
