@@ -25,8 +25,9 @@
     <ClCompile Include="1949_SampleAnswer.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="2105_dessertCafe.cpp" />
     <ClCompile Include="2112_gaurdFilm.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="2112_sampleAnswer.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
@@ -63,6 +64,7 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
+    <Text Include="2105_dessertCafe.txt" />
     <Text Include="2112_gaurdFilm.txt" />
     <Text Include="findShop.txt" />
     <Text Include="grouping.txt" />

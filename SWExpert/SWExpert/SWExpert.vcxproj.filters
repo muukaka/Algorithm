@@ -66,6 +66,9 @@
     <ClCompile Include="2112_sampleAnswer.cpp">
       <Filter>소스 파일\SWExpert</Filter>
     </ClCompile>
+    <ClCompile Include="2105_dessertCafe.cpp">
+      <Filter>소스 파일\SWExpert</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="findShop.txt">
@@ -84,6 +87,9 @@
       <Filter>리소스 파일</Filter>
     </Text>
     <Text Include="2112_gaurdFilm.txt">
+      <Filter>리소스 파일</Filter>
+    </Text>
+    <Text Include="2105_dessertCafe.txt">
       <Filter>리소스 파일</Filter>
     </Text>
   </ItemGroup>
