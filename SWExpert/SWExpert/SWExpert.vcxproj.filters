@@ -69,6 +69,21 @@
     <ClCompile Include="2105_dessertCafe.cpp">
       <Filter>소스 파일\SWExpert</Filter>
     </ClCompile>
+    <ClCompile Include="2477_carGarage.cpp">
+      <Filter>소스 파일\SWExpert</Filter>
+    </ClCompile>
+    <ClCompile Include="2477_sampleAnswer.cpp">
+      <Filter>소스 파일\SWExpert</Filter>
+    </ClCompile>
+    <ClCompile Include="4131_runway.cpp">
+      <Filter>소스 파일\SWExpert</Filter>
+    </ClCompile>
+    <ClCompile Include="2117_homeService.cpp">
+      <Filter>소스 파일\SWExpert</Filter>
+    </ClCompile>
+    <ClCompile Include="4128_chef.cpp">
+      <Filter>소스 파일\SWExpert</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="findShop.txt">
@@ -90,6 +105,18 @@
       <Filter>리소스 파일</Filter>
     </Text>
     <Text Include="2105_dessertCafe.txt">
+      <Filter>리소스 파일</Filter>
+    </Text>
+    <Text Include="2477_carGarage.txt">
+      <Filter>리소스 파일</Filter>
+    </Text>
+    <Text Include="4131_runway.txt">
+      <Filter>리소스 파일</Filter>
+    </Text>
+    <Text Include="2117_homeService.txt">
+      <Filter>리소스 파일</Filter>
+    </Text>
+    <Text Include="4128_chef.txt">
       <Filter>리소스 파일</Filter>
     </Text>
   </ItemGroup>
