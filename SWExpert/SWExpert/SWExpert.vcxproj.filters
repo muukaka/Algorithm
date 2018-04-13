@@ -22,6 +22,12 @@
     <Filter Include="소스 파일\LTest">
       <UniqueIdentifier>{eff7fe06-3449-408e-a777-92daa4e4f81c}</UniqueIdentifier>
     </Filter>
+    <Filter Include="리소스 파일\SWExpert">
+      <UniqueIdentifier>{ece184ec-d54d-4243-9b70-8892a4653016}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="리소스 파일\LTest">
+      <UniqueIdentifier>{a0c0e74e-9d88-44f0-97bd-f782aed60879}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="sorting.cpp">
@@ -84,40 +90,46 @@
     <ClCompile Include="4128_chef.cpp">
       <Filter>소스 파일\SWExpert</Filter>
     </ClCompile>
+    <ClCompile Include="2115_honeyBee.cpp">
+      <Filter>소스 파일\SWExpert</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <Text Include="findShop.txt">
-      <Filter>리소스 파일</Filter>
-    </Text>
-    <Text Include="grouping.txt">
-      <Filter>리소스 파일</Filter>
-    </Text>
-    <Text Include="sticker.txt">
-      <Filter>리소스 파일</Filter>
-    </Text>
-    <Text Include="partTimeJob.txt">
-      <Filter>리소스 파일</Filter>
-    </Text>
-    <Text Include="runLengthCoding.txt">
-      <Filter>리소스 파일</Filter>
+    <Text Include="2105_dessertCafe.txt">
+      <Filter>리소스 파일\SWExpert</Filter>
     </Text>
     <Text Include="2112_gaurdFilm.txt">
-      <Filter>리소스 파일</Filter>
+      <Filter>리소스 파일\SWExpert</Filter>
     </Text>
-    <Text Include="2105_dessertCafe.txt">
-      <Filter>리소스 파일</Filter>
-    </Text>
-    <Text Include="2477_carGarage.txt">
-      <Filter>리소스 파일</Filter>
-    </Text>
-    <Text Include="4131_runway.txt">
-      <Filter>리소스 파일</Filter>
+    <Text Include="2115_honeyBee.txt">
+      <Filter>리소스 파일\SWExpert</Filter>
     </Text>
     <Text Include="2117_homeService.txt">
-      <Filter>리소스 파일</Filter>
+      <Filter>리소스 파일\SWExpert</Filter>
+    </Text>
+    <Text Include="2477_carGarage.txt">
+      <Filter>리소스 파일\SWExpert</Filter>
     </Text>
     <Text Include="4128_chef.txt">
-      <Filter>리소스 파일</Filter>
+      <Filter>리소스 파일\SWExpert</Filter>
+    </Text>
+    <Text Include="4131_runway.txt">
+      <Filter>리소스 파일\SWExpert</Filter>
+    </Text>
+    <Text Include="findShop.txt">
+      <Filter>리소스 파일\LTest</Filter>
+    </Text>
+    <Text Include="grouping.txt">
+      <Filter>리소스 파일\LTest</Filter>
+    </Text>
+    <Text Include="partTimeJob.txt">
+      <Filter>리소스 파일\LTest</Filter>
+    </Text>
+    <Text Include="runLengthCoding.txt">
+      <Filter>리소스 파일\LTest</Filter>
+    </Text>
+    <Text Include="sticker.txt">
+      <Filter>리소스 파일\LTest</Filter>
     </Text>
   </ItemGroup>
 </Project>
