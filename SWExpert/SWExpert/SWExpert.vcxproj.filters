@@ -93,6 +93,12 @@
     <ClCompile Include="2115_honeyBee.cpp">
       <Filter>소스 파일\SWExpert</Filter>
     </ClCompile>
+    <ClCompile Include="1952_swimming.cpp">
+      <Filter>소스 파일\SWExpert</Filter>
+    </ClCompile>
+    <ClCompile Include="2383_lunchTime.cpp">
+      <Filter>소스 파일\SWExpert</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="2105_dessertCafe.txt">
@@ -130,6 +136,12 @@
     </Text>
     <Text Include="sticker.txt">
       <Filter>리소스 파일\LTest</Filter>
+    </Text>
+    <Text Include="1952_swimming.txt">
+      <Filter>리소스 파일\SWExpert</Filter>
+    </Text>
+    <Text Include="2383_lunchTime.txt">
+      <Filter>리소스 파일\SWExpert</Filter>
     </Text>
   </ItemGroup>
 </Project>
