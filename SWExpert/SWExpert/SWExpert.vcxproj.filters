@@ -99,6 +99,18 @@
     <ClCompile Include="2383_lunchTime.cpp">
       <Filter>소스 파일\SWExpert</Filter>
     </ClCompile>
+    <ClCompile Include="4123_makeNumber.cpp">
+      <Filter>소스 파일\SWExpert</Filter>
+    </ClCompile>
+    <ClCompile Include="4130_magnet.cpp">
+      <Filter>소스 파일\SWExpert</Filter>
+    </ClCompile>
+    <ClCompile Include="2382_microorganism.cpp">
+      <Filter>소스 파일\SWExpert</Filter>
+    </ClCompile>
+    <ClCompile Include="1953_prisoner.cpp">
+      <Filter>소스 파일\SWExpert</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="2105_dessertCafe.txt">
@@ -141,6 +153,18 @@
       <Filter>리소스 파일\SWExpert</Filter>
     </Text>
     <Text Include="2383_lunchTime.txt">
+      <Filter>리소스 파일\SWExpert</Filter>
+    </Text>
+    <Text Include="4123_makeNumber.txt">
+      <Filter>리소스 파일\SWExpert</Filter>
+    </Text>
+    <Text Include="4130_magnet.txt">
+      <Filter>리소스 파일\SWExpert</Filter>
+    </Text>
+    <Text Include="2382_microorganism.txt">
+      <Filter>리소스 파일\SWExpert</Filter>
+    </Text>
+    <Text Include="1953_prisoner.txt">
       <Filter>리소스 파일\SWExpert</Filter>
     </Text>
   </ItemGroup>
