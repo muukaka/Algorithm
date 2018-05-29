@@ -19,23 +19,14 @@
     <Filter Include="소스 파일\Baekjoon">
       <UniqueIdentifier>{4f70bb22-2f2f-4b33-aa34-f52892ac67db}</UniqueIdentifier>
     </Filter>
-    <Filter Include="소스 파일\LTest">
-      <UniqueIdentifier>{eff7fe06-3449-408e-a777-92daa4e4f81c}</UniqueIdentifier>
-    </Filter>
     <Filter Include="리소스 파일\SWExpert">
       <UniqueIdentifier>{ece184ec-d54d-4243-9b70-8892a4653016}</UniqueIdentifier>
     </Filter>
-    <Filter Include="리소스 파일\LTest">
-      <UniqueIdentifier>{a0c0e74e-9d88-44f0-97bd-f782aed60879}</UniqueIdentifier>
+    <Filter Include="소스 파일\Algor">
+      <UniqueIdentifier>{9b30b545-ab6f-48b4-b927-80e8b01c585e}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="sorting.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="mergesort.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="1949_mountain.cpp">
       <Filter>소스 파일\SWExpert</Filter>
     </ClCompile>
@@ -50,21 +41,6 @@
     </ClCompile>
     <ClCompile Include="붕어빵판매.cpp">
       <Filter>소스 파일\Baekjoon</Filter>
-    </ClCompile>
-    <ClCompile Include="findShop.cpp">
-      <Filter>소스 파일\LTest</Filter>
-    </ClCompile>
-    <ClCompile Include="runLengthCoding.cpp">
-      <Filter>소스 파일\LTest</Filter>
-    </ClCompile>
-    <ClCompile Include="grouping.cpp">
-      <Filter>소스 파일\LTest</Filter>
-    </ClCompile>
-    <ClCompile Include="sticker.cpp">
-      <Filter>소스 파일\LTest</Filter>
-    </ClCompile>
-    <ClCompile Include="partTimeJob.cpp">
-      <Filter>소스 파일\LTest</Filter>
     </ClCompile>
     <ClCompile Include="2112_gaurdFilm.cpp">
       <Filter>소스 파일\SWExpert</Filter>
@@ -111,6 +87,21 @@
     <ClCompile Include="1953_prisoner.cpp">
       <Filter>소스 파일\SWExpert</Filter>
     </ClCompile>
+    <ClCompile Include="mergesort.cpp">
+      <Filter>소스 파일\Algor</Filter>
+    </ClCompile>
+    <ClCompile Include="sorting.cpp">
+      <Filter>소스 파일\Algor</Filter>
+    </ClCompile>
+    <ClCompile Include="1768_baseball.cpp">
+      <Filter>소스 파일\SWExpert</Filter>
+    </ClCompile>
+    <ClCompile Include="1768_main.cpp">
+      <Filter>소스 파일\SWExpert</Filter>
+    </ClCompile>
+    <ClCompile Include="4013_magnet.cpp">
+      <Filter>소스 파일\SWExpert</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="2105_dessertCafe.txt">
@@ -134,21 +125,6 @@
     <Text Include="4131_runway.txt">
       <Filter>리소스 파일\SWExpert</Filter>
     </Text>
-    <Text Include="findShop.txt">
-      <Filter>리소스 파일\LTest</Filter>
-    </Text>
-    <Text Include="grouping.txt">
-      <Filter>리소스 파일\LTest</Filter>
-    </Text>
-    <Text Include="partTimeJob.txt">
-      <Filter>리소스 파일\LTest</Filter>
-    </Text>
-    <Text Include="runLengthCoding.txt">
-      <Filter>리소스 파일\LTest</Filter>
-    </Text>
-    <Text Include="sticker.txt">
-      <Filter>리소스 파일\LTest</Filter>
-    </Text>
     <Text Include="1952_swimming.txt">
       <Filter>리소스 파일\SWExpert</Filter>
     </Text>
@@ -165,6 +141,12 @@
       <Filter>리소스 파일\SWExpert</Filter>
     </Text>
     <Text Include="1953_prisoner.txt">
+      <Filter>리소스 파일\SWExpert</Filter>
+    </Text>
+    <Text Include="1768_baseball.txt">
+      <Filter>리소스 파일\SWExpert</Filter>
+    </Text>
+    <Text Include="4013_magnet.txt">
       <Filter>리소스 파일\SWExpert</Filter>
     </Text>
   </ItemGroup>
